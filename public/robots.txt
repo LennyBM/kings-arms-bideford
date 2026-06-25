@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kings-arms-bideford.vercel.app/sitemap.xml
