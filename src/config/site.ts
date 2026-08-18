@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "kings-arms-bideford",
   "name": "The Kings Arms",
   "shortName": "The Kings Arms",
   "tagline": "A traditional Devon village pub in the heart of Hartland",
-  "intro": "Traditional, really well made, locally sourced pub food with generous portions at fair prices; takeaway available. Vegetarian-friendly, gluten-free options (dedicated fryer) and an extensive, well-rev",
+  "intro": "Traditional, really well made, locally sourced pub food with generous portions at fair prices; takeaway available. Vegetarian-friendly, gluten-free options (dedicated fryer) and an extensive, well-reviewed vegan menu.",
   "type": "Pub",
   "established": "",
   "siteUrl": "https://kings-arms-bideford.vercel.app",
@@ -235,38 +235,51 @@ export const site: SiteConfig = {
   "faqs": [],
   "images": [
     "img-00.jpg",
-    "img-01.jpg",
     "img-02.jpg",
     "img-03.jpg",
     "img-04.jpg",
     "img-05.jpg",
     "img-06.jpg",
-    "img-07.jpg",
     "img-08.jpg",
-    "img-09.jpg",
     "img-10.jpg",
     "img-11.jpg",
     "img-12.jpg",
     "img-13.jpg",
     "img-14.jpg",
-    "img-15.jpg",
-    "img-16.jpg",
     "img-17.jpg",
     "img-18.jpg",
     "img-19.jpg",
     "img-20.jpg",
     "img-21.jpg"
   ],
-  "hero": "img-00.jpg",
+  "hero": "img-02.jpg",
   "featured": [
-    "img-01.jpg",
     "img-02.jpg",
     "img-03.jpg",
     "img-04.jpg",
     "img-05.jpg",
-    "img-06.jpg"
+    "img-06.jpg",
+    "img-00.jpg"
   ],
   "videoUrls": [],
+  "focal": {
+    "img-03.jpg": "45% 55%",
+    "img-04.jpg": "55% 35%",
+    "img-05.jpg": "60% 60%",
+    "img-06.jpg": "50% 60%",
+    "img-08.jpg": "60% 40%",
+    "img-10.jpg": "35% 45%",
+    "img-13.jpg": "50% 65%",
+    "img-17.jpg": "50% 60%",
+    "img-18.jpg": "65% 45%",
+    "img-19.jpg": "60% 55%",
+    "img-20.jpg": "30% 30%"
+  },
+  "design": {
+    "display": "inn",
+    "hero": "anchor",
+    "order": "food-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#7A2E2A",
